@@ -1,0 +1,265 @@
+1
+
+   Abaqus 6.12-1                                  Date 14-十一月-2017   Time 12:03:47
+   For use by  under license from Dassault Systemes or its subsidiary.
+
+
+
+                         The Abaqus Software is a product of:
+
+                           Dassault Systemes Simulia Corp.
+                                 Rising Sun Mills
+                                 166 Valley Street
+                           Providence, RI 02909-2499, USA
+ 
+
+
+                   The Abaqus Software is available only under license
+                   from Dassault Systemes or its subsidiary and may be
+                   used or reproduced only in accordance with the terms
+                   of such license.
+ 
+                          On machine Admin_PC 
+                          you are authorized to run
+                          Abaqus/Standard until 31-Dec-2050
+
+                          Your site id is: AE125930 
+
+
+ 
+                    For assistance or any other information you may
+                    obtain contact information for your local office
+                    from the world wide web at:
+
+                      http://www.simulia.com/about/locations.html
+
+ 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+                *                                                         * 
+                *                   *****************                     * 
+                *                   *  N O T I C E  *                     * 
+                *                   *****************                     * 
+                *                                                         * 
+                *                                                         * 
+                *                    Abaqus 6.12-1                        * 
+                *                                                         * 
+                *          BUILD ID: 2012_03_13-20.23.18 119612           * 
+                *                                                         * 
+                *                                                         * 
+                *  Please make sure you are using release 6.12 manuals    * 
+                *  plus the notes accompanying this release.              * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+ 
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+  *Node
+  *Element, type=C3D8
+  *Nset, nset=ASSEMBLY_PART-1-1_SET-15
+  *Elset, elset=ASSEMBLY_PART-1-1_SET-15
+  *Node
+  *Nset, nset=ASSEMBLY_C1
+  *Nset, nset=ASSEMBLY_C2
+  *Nset, nset=ASSEMBLY_M1
+  *Nset, nset=ASSEMBLY_M2
+  *Nset, nset=ASSEMBLY_S_SET-8
+  *Nset, nset=ASSEMBLY_S_SET-9
+  *Elset, elset=ASSEMBLY_S_SET-8
+  *Elset, elset=ASSEMBLY_S_SET-9
+  *Elset, elset=ASSEMBLY__SA1_S1
+  *Elset, elset=ASSEMBLY__SA2_S2
+  *surface, type=ELEMENT, name=ASSEMBLY_SA1
+  *surface, type=ELEMENT, name=ASSEMBLY_SA2
+  *surface, type=NODE, name=ASSEMBLY_S_SET-8_CNS_
+  *surface, type=NODE, name=ASSEMBLY_S_SET-9_CNS_
+  *surface, type=ELEMENT, name=ASSEMBLY_SA1
+  *surface, type=ELEMENT, name=ASSEMBLY_SA2
+  *surface, type=NODE, name=ASSEMBLY_S_SET-8_CNS_
+  *surface, type=NODE, name=ASSEMBLY_S_SET-9_CNS_
+  *material, name=MATERIAL-1
+  *anisotropichyperelastic, fung-orthotropic, moduli=INSTANTANEOUS
+
+ ***WARNING: THE COMPRESSIBILITY OF THE ANISOTROPIC HYPERELASTIC MATERIAL WILL 
+             BE IGNORED IF USED IN COMBINATION WITH ELEMENTS WITH PLANE-STRESS 
+             FORMULATION. Abaqus ASSUMES FULLY INCOMPRESSIBLE BEHAVIOR IN THIS 
+             SITUATION.
+  *viscoelastic, time=PRONY
+  *orientation, name=ASSEMBLY_PART-1-1_ORI-3
+  *solidsection, elset=ASSEMBLY_PART-1-1_SET-15, orientation=ASSEMBLY_PART-1-1_ORI-3, material=MATERIAL-1
+  *boundary
+  *boundary, amplitude=AMP-1
+  *mpc
+  *mpc
+  *solidsection, elset=ASSEMBLY_PART-1-1_SET-15, orientation=ASSEMBLY_PART-1-1_ORI-3, material=MATERIAL-1
+  *surface, type=ELEMENT, name=ASSEMBLY_SA1
+  *surface, type=ELEMENT, name=ASSEMBLY_SA2
+  *surface, type=NODE, name=ASSEMBLY_S_SET-8_CNS_
+  *surface, type=NODE, name=ASSEMBLY_S_SET-9_CNS_
+  *output, field, timeinterval=6
+  *output, history, frequency=0
+  *elementoutput, directions=YES
+  *output, field, timeinterval=6
+  *output, history, frequency=0
+  *elementoutput, directions=YES
+  *output, field, timeinterval=6
+  *output, history, frequency=0
+  *elementoutput, directions=YES
+
+ ***WARNING: MPCS (EXTERNAL or INTERNAL, including those generated from rigid 
+             body definitions), KINEMATIC COUPLINGS, AND/OR EQUATIONS WILL 
+             ACTIVATE ADDITIONAL DEGREES OF FREEDOM
+  *amplitude, name=AMP-1
+  *Step, name=Step-2, nlgeom=YES, inc=100000
+  *output, field, timeinterval=6
+  *output, history, frequency=0
+  *Step, name=Step-2, nlgeom=YES, inc=100000
+  *Step, name=Step-2, nlgeom=YES, inc=100000
+  *visco, cetol=1e-05
+  *boundary, amplitude=AMP-1
+  *output, field, timeinterval=6
+  *nodeoutput
+  *elementoutput, directions=YES
+  *output, history, frequency=0
+  *endstep
+
+ ***WARNING: OUTPUT AT EXACT, PREDEFINED TIME POINTS WAS REQUESTED IN THIS 
+             STEP. IN ORDER TO WRITE OUTPUT AT EXACT TIME POINTS SPECIFIED, 
+             Abaqus MIGHT USE TIME INCREMENTS SMALLER THAN THE MINIMUM TIME 
+             INCREMENT ALLOWED IN THE STEP. IN ADDITION, THE NUMBER OF 
+             INCREMENTS REQUIRED TO COMPLETE THE STEP WILL IN GENERAL INCREASE.
+  *boundary
+  *Step, name=Step-2, nlgeom=YES, inc=100000
+  *visco, cetol=1e-05
+  *boundary, amplitude=AMP-1
+  *endstep
+
+ ***WARNING: THE BEAM MPC HAS A ZERO LENGTH BETWEEN NODES 858 INSTANCE PART-1-1 
+             AND 2 (ASSEMBLY).  IT WILL BE REPLACED WITH A TIE MPC
+
+ ***WARNING: THE BEAM MPC HAS A ZERO LENGTH BETWEEN NODES 18 INSTANCE PART-1-1 
+             AND 1 (ASSEMBLY).  IT WILL BE REPLACED WITH A TIE MPC
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                   576
+          NUMBER OF NODES IS                                      877
+          NUMBER OF NODES DEFINED BY THE USER                     877
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                 2847
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =  0.10000    
+       SYSTEM TIME (SEC)    =   0.0000    
+       TOTAL CPU TIME (SEC) =  0.10000    
+       WALLCLOCK TIME (SEC) =          1
+1
+
+   Abaqus 6.12-1                                  Date 14-十一月-2017   Time 12:03:48
+   For use by  under license from Dassault Systemes or its subsidiary.
+
+                                                                                               STEP    1  INCREMENT    1
+                                                                                          TIME COMPLETED IN THIS STEP   0.00    
+
+
+                        S T E P       1     V I S C O   A N A L Y S I S
+
+
+                                                                                          
+
+     AUTOMATIC TIME CONTROL WITH -
+          A SUGGESTED INITIAL TIME INCREMENT OF                1.000E-04
+          AND A TOTAL TIME PERIOD OF                            108.    
+          THE MINIMUM TIME INCREMENT ALLOWED IS                1.000E-11
+          THE MAXIMUM TIME INCREMENT ALLOWED IS                 4.00    
+
+     THE SIZE OF THE TIME INCREMENT IS CONTROLLED BY -
+          THE PARAMETER  CETOL                                 1.000E-05
+
+                              IMPLICIT TIME INTEGRATION WILL BE USED
+
+          LARGE DISPLACEMENT THEORY WILL BE USED
+  
+                   M E M O R Y   E S T I M A T E
+  
+ PROCESS      FLOATING PT       MINIMUM MEMORY        MEMORY TO
+              OPERATIONS           REQUIRED          MINIMIZE I/O
+             PER ITERATION         (MBYTES)           (MBYTES)
+  
+     1         7.28E+007               18                 30
+  
+ NOTE:
+      (1) SINCE ABAQUS DOES NOT PRE-ALLOCATE MEMORY AND ONLY ALLOCATES MEMORY AS NEEDED DURING THE ANALYSIS,
+          THE MEMORY REQUIREMENT PRINTED HERE CAN ONLY BE VIEWED AS A GENERAL GUIDELINE BASED ON THE BEST
+          KNOWLEDGE AVAILABLE AT THE BEGINNING OF A STEP BEFORE THE SOLUTION PROCESS HAS BEGUN.
+      (2) THE ESTIMATE IS NORMALLY UPDATED AT THE BEGINNING OF EVERY STEP. IT IS THE MAXIMUM VALUE OF THE
+          ESTIMATE FROM THE CURRENT STEP TO THE LAST STEP OF THE ANALYSIS, WITH UNSYMMETRIC SOLUTION TAKEN
+          INTO ACCOUNT IF APPLICABLE. 
+      (3) SINCE THE ESTIMATE IS BASED ON THE ACTIVE DEGREES OF FREEDOM IN THE FIRST ITERATION OF THE 
+          CURRENT STEP, THE MEMORY ESTIMATE MIGHT BE SIGNIFICANTLY DIFFERENT THAN ACTUAL USAGE FOR 
+          PROBLEMS WITH SUBSTANTIAL CHANGES IN ACTIVE DEGREES OF FREEDOM BETWEEN STEPS (OR EVEN WITHIN
+          THE SAME STEP). EXAMPLES ARE: PROBLEMS WITH SIGNIFICANT CONTACT CHANGES, PROBLEMS WITH MODEL
+          CHANGE, PROBLEMS WITH BOTH STATIC STEP AND STEADY STATE DYNAMIC PROCEDURES WHERE ACOUSTIC 
+          ELEMENTS WILL ONLY BE ACTIVATED IN THE STEADY STATE DYNAMIC STEPS.
+      (4) FOR MULTI-PROCESS EXECUTION, THE ESTIMATED VALUE OF FLOATING POINT OPERATIONS FOR EACH PROCESS
+          IS BASED ON AN INITIAL SCHEDULING OF OPERATIONS AND MIGHT NOT REFLECT THE ACTUAL FLOATING 
+          POINT OPERATIONS COMPLETED ON EACH PROCESS. OPERATIONS ARE DYNAMICALLY BALANCED DURING EXECUTION, 
+          SO THE ACTUAL BALANCE OF OPERATIONS BETWEEN PROCESSES IS EXPECTED TO BE BETTER THAN THE ESTIMATE
+          PRINTED HERE.
+      (5) THE UPPER LIMIT OF MEMORY THAT CAN BE ALLOCATED BY ABAQUS WILL IN GENERAL DEPEND ON THE VALUE OF
+          THE "MEMORY" PARAMETER AND THE AMOUNT OF PHYSICAL MEMORY AVAILABLE ON THE MACHINE. PLEASE SEE
+          THE "ABAQUS ANALYSIS USER'S MANUAL" FOR MORE DETAILS. THE ACTUAL USAGE OF MEMORY AND OF DISK
+          SPACE FOR SCRATCH DATA WILL DEPEND ON THIS UPPER LIMIT AS WELL AS THE MEMORY REQUIRED TO MINIMIZE
+          I/O. IF THE MEMORY UPPER LIMIT IS GREATER THAN THE MEMORY REQUIRED TO MINIMIZE I/O, THEN THE ACTUAL
+          MEMORY USAGE WILL BE CLOSE TO THE ESTIMATED "MEMORY TO MINIMIZE I/O" VALUE, AND THE SCRATCH DISK
+          USAGE WILL BE CLOSE-TO-ZERO; OTHERWISE, THE ACTUAL MEMORY USED WILL BE CLOSE TO THE PREVIOUSLY
+          MENTIONED MEMORY LIMIT, AND THE SCRATCH DISK USAGE WILL BE ROUGHLY PROPORTIONAL TO THE DIFFERENCE
+          BETWEEN THE ESTIMATED "MEMORY TO MINIMIZE I/O" AND THE MEMORY UPPER LIMIT. HOWEVER ACCURATE
+          ESTIMATE OF THE SCRATCH DISK SPACE IS NOT POSSIBLE.
+      (6) USING "*RESTART, WRITE" CAN GENERATE A LARGE AMOUNT OF DATA WRITTEN IN THE WORK DIRECTORY.
+
+
+          THE ANALYSIS HAS BEEN COMPLETED
+
+
+
+                              ANALYSIS COMPLETE
+                              WITH      5 WARNING MESSAGES ON THE DAT FILE
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   40.600    
+       SYSTEM TIME (SEC)    =   3.7000    
+       TOTAL CPU TIME (SEC) =   44.300    
+       WALLCLOCK TIME (SEC) =         16
