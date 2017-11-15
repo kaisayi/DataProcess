@@ -6,13 +6,6 @@
 from pprint import pprint
 import os
 
-# load the file of the load-displacement
-Load_path = '../db/ldline'
-Load_line = []
-with open(Load_path) as f:
-    for line in f:
-        Load_line.append([float(va.strip()) for va in line.split()])
-# pprint(Load_line)
 
 # change parameter
 # D1111 = 35838.65
@@ -47,8 +40,10 @@ def modify(c, g_i, tau_i):
                 line = ' ' + ', '.join(f'{dd:.4f}' for dd in prony) + '\n'
             fw.write(line)
 
+__all__ = ['modify']
+
 if __name__ == '__main__':
-    modify(4.82797, 0.55473, 28.2832)
+    modify(3.45234, 0.55473, 28.2832)
 
 
 

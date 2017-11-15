@@ -3,8 +3,10 @@
 '''
 @Author  : Aries
 '''
-
-import odbAcess
+from abaqus import *
+from abaqusConstants import *
+import odbAccess
+import os
 
 ODB_path = '../sub_abaqus/new_mini.odb'
 result_path = '../db/rf_u.txt'
@@ -28,7 +30,8 @@ curr_odb.close()
 
 with open(result_path, 'w') as f:
     for u, rf in zip(U1, RF):
-        f.write(f'{u:4f}, {rf:2f}\n')
+        f.write('{:2f}, {:4f}\n'.format(rf, u))
+        # print(u, rf)
 
 
 
