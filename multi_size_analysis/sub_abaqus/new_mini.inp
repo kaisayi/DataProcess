@@ -1525,8 +1525,8 @@ BEAM, s_Set-9, M2
 ** 
 *Material, name=Material-1
 *Anisotropic Hyperelastic, fung-orthotropic, moduli=INSTANTANEOUS
- 7423.13, 1164.95, 7531.28, 1489.08, 1494.02, 3477.08, 843.96, 841.61
- 1117.55, 4.82797, 9.73277e-05
+ 10380.97, 1629.13, 10532.22, 2082.43, 2089.34, 4862.56, 1180.25, 1176.96
+ 1562.86, 3.45234, 9.73277e-05
 *Viscoelastic, time=PRONY
  0.5547, 0.0000, 28.2832
 ** 
