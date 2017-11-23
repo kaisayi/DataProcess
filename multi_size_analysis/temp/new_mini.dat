@@ -1,0 +1,262 @@
+1
+
+   Abaqus 6.12-1                                  Date 14-十一月-2017   Time 11:26:09
+   For use by  under license from Dassault Systemes or its subsidiary.
+
+
+
+                         The Abaqus Software is a product of:
+
+                           Dassault Systemes Simulia Corp.
+                                 Rising Sun Mills
+                                 166 Valley Street
+                           Providence, RI 02909-2499, USA
+ 
+
+
+                   The Abaqus Software is available only under license
+                   from Dassault Systemes or its subsidiary and may be
+                   used or reproduced only in accordance with the terms
+                   of such license.
+ 
+                          On machine Admin_PC 
+                          you are authorized to run
+                          Abaqus/Standard until 31-Dec-2050
+
+                          Your site id is: AE125930 
+
+
+ 
+                    For assistance or any other information you may
+                    obtain contact information for your local office
+                    from the world wide web at:
+
+                      http://www.simulia.com/about/locations.html
+
+ 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+                *                                                         * 
+                *                   *****************                     * 
+                *                   *  N O T I C E  *                     * 
+                *                   *****************                     * 
+                *                                                         * 
+                *                                                         * 
+                *                    Abaqus 6.12-1                        * 
+                *                                                         * 
+                *          BUILD ID: 2012_03_13-20.23.18 119612           * 
+                *                                                         * 
+                *                                                         * 
+                *  Please make sure you are using release 6.12 manuals    * 
+                *  plus the notes accompanying this release.              * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+ 
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+  *Node
+  *Element, type=C3D8
+  *Nset, nset=ASSEMBLY_PART-1-1_SET-15
+  *Elset, elset=ASSEMBLY_PART-1-1_SET-15
+  *Node
+  *Nset, nset=ASSEMBLY_C1
+  *Nset, nset=ASSEMBLY_C2
+  *Nset, nset=ASSEMBLY_M1
+  *Nset, nset=ASSEMBLY_M2
+  *Nset, nset=ASSEMBLY_S_SET-8
+  *Nset, nset=ASSEMBLY_S_SET-9
+  *Elset, elset=ASSEMBLY_S_SET-8
+  *Elset, elset=ASSEMBLY_S_SET-9
+  *Elset, elset=ASSEMBLY__SA1_S1
+  *Elset, elset=ASSEMBLY__SA2_S2
+  *surface, type=ELEMENT, name=ASSEMBLY_SA1
+  *surface, type=ELEMENT, name=ASSEMBLY_SA2
+  *surface, type=NODE, name=ASSEMBLY_S_SET-8_CNS_
+  *surface, type=NODE, name=ASSEMBLY_S_SET-9_CNS_
+  *surface, type=ELEMENT, name=ASSEMBLY_SA1
+  *surface, type=ELEMENT, name=ASSEMBLY_SA2
+  *surface, type=NODE, name=ASSEMBLY_S_SET-8_CNS_
+  *surface, type=NODE, name=ASSEMBLY_S_SET-9_CNS_
+  *material, name=MATERIAL-1
+  *anisotropichyperelastic, fung-orthotropic, moduli=INSTANTANEOUS
+  *viscoelastic, time=PRONY
+  *orientation, name=ASSEMBLY_PART-1-1_ORI-3
+  *solidsection, elset=ASSEMBLY_PART-1-1_SET-15, orientation=ASSEMBLY_PART-1-1_ORI-3, material=MATERIAL-1
+  *boundary
+  *boundary, amplitude=AMP-1
+  *mpc
+  *mpc
+  *solidsection, elset=ASSEMBLY_PART-1-1_SET-15, orientation=ASSEMBLY_PART-1-1_ORI-3, material=MATERIAL-1
+  *surface, type=ELEMENT, name=ASSEMBLY_SA1
+  *surface, type=ELEMENT, name=ASSEMBLY_SA2
+  *surface, type=NODE, name=ASSEMBLY_S_SET-8_CNS_
+  *surface, type=NODE, name=ASSEMBLY_S_SET-9_CNS_
+  *output, field, timeinterval=6
+  *output, history, frequency=0
+  *elementoutput, directions=YES
+  *output, field, timeinterval=6
+  *output, history, frequency=0
+  *elementoutput, directions=YES
+  *output, field, timeinterval=6
+  *output, history, frequency=0
+  *elementoutput, directions=YES
+
+ ***WARNING: MPCS (EXTERNAL or INTERNAL, including those generated from rigid 
+             body definitions), KINEMATIC COUPLINGS, AND/OR EQUATIONS WILL 
+             ACTIVATE ADDITIONAL DEGREES OF FREEDOM
+  *amplitude, name=AMP-1
+  *Step, name=Step-2, nlgeom=YES, inc=100000
+  *output, field, timeinterval=6
+  *output, history, frequency=0
+  *Step, name=Step-2, nlgeom=YES, inc=100000
+  *Step, name=Step-2, nlgeom=YES, inc=100000
+  *visco, cetol=1e-05
+  *boundary, amplitude=AMP-1
+  *output, field, timeinterval=6
+  *nodeoutput
+  *elementoutput, directions=YES
+  *output, history, frequency=0
+  *endstep
+
+ ***WARNING: OUTPUT AT EXACT, PREDEFINED TIME POINTS WAS REQUESTED IN THIS 
+             STEP. IN ORDER TO WRITE OUTPUT AT EXACT TIME POINTS SPECIFIED, 
+             Abaqus MIGHT USE TIME INCREMENTS SMALLER THAN THE MINIMUM TIME 
+             INCREMENT ALLOWED IN THE STEP. IN ADDITION, THE NUMBER OF 
+             INCREMENTS REQUIRED TO COMPLETE THE STEP WILL IN GENERAL INCREASE.
+  *boundary
+  *Step, name=Step-2, nlgeom=YES, inc=100000
+  *visco, cetol=1e-05
+  *boundary, amplitude=AMP-1
+  *endstep
+
+ ***WARNING: THE BEAM MPC HAS A ZERO LENGTH BETWEEN NODES 858 INSTANCE PART-1-1 
+             AND 2 (ASSEMBLY).  IT WILL BE REPLACED WITH A TIE MPC
+
+ ***WARNING: THE BEAM MPC HAS A ZERO LENGTH BETWEEN NODES 18 INSTANCE PART-1-1 
+             AND 1 (ASSEMBLY).  IT WILL BE REPLACED WITH A TIE MPC
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                   576
+          NUMBER OF NODES IS                                      877
+          NUMBER OF NODES DEFINED BY THE USER                     877
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                 2847
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =  0.10000    
+       SYSTEM TIME (SEC)    =  0.10000    
+       TOTAL CPU TIME (SEC) =  0.20000    
+       WALLCLOCK TIME (SEC) =          0
+1
+
+   Abaqus 6.12-1                                  Date 14-十一月-2017   Time 11:26:10
+   For use by  under license from Dassault Systemes or its subsidiary.
+
+                                                                                               STEP    1  INCREMENT    1
+                                                                                          TIME COMPLETED IN THIS STEP   0.00    
+
+
+                        S T E P       1     V I S C O   A N A L Y S I S
+
+
+                                                                                          
+
+     AUTOMATIC TIME CONTROL WITH -
+          A SUGGESTED INITIAL TIME INCREMENT OF                1.000E-04
+          AND A TOTAL TIME PERIOD OF                            108.    
+          THE MINIMUM TIME INCREMENT ALLOWED IS                1.000E-11
+          THE MAXIMUM TIME INCREMENT ALLOWED IS                 4.00    
+
+     THE SIZE OF THE TIME INCREMENT IS CONTROLLED BY -
+          THE PARAMETER  CETOL                                 1.000E-05
+
+                              IMPLICIT TIME INTEGRATION WILL BE USED
+
+          LARGE DISPLACEMENT THEORY WILL BE USED
+
+
+
+                              ANALYSIS COMPLETE
+                              WITH      1 ERROR MESSAGES ON THE MSG FILE
+                              AND       4 WARNING MESSAGES ON THE DAT FILE
+
+
+
+                              ANALYSIS COMPLETE
+                              WITH      2 ERROR MESSAGES ON THE MSG FILE
+                              AND       4 WARNING MESSAGES ON THE DAT FILE
+
+
+
+                              ANALYSIS COMPLETE
+                              WITH      3 ERROR MESSAGES ON THE MSG FILE
+                              AND       4 WARNING MESSAGES ON THE DAT FILE
+
+
+
+                              ANALYSIS COMPLETE
+                              WITH      4 ERROR MESSAGES ON THE MSG FILE
+                              AND       4 WARNING MESSAGES ON THE DAT FILE
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   0.0000    
+       SYSTEM TIME (SEC)    =   0.0000    
+       TOTAL CPU TIME (SEC) =   0.0000    
+       WALLCLOCK TIME (SEC) =          0
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   0.0000    
+       SYSTEM TIME (SEC)    =   0.0000    
+       TOTAL CPU TIME (SEC) =   0.0000    
+       WALLCLOCK TIME (SEC) =          0
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   0.0000    
+       SYSTEM TIME (SEC)    =   0.0000    
+       TOTAL CPU TIME (SEC) =   0.0000    
+       WALLCLOCK TIME (SEC) =          0
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   0.0000    
+       SYSTEM TIME (SEC)    =   0.0000    
+       TOTAL CPU TIME (SEC) =   0.0000    
+       WALLCLOCK TIME (SEC) =          0
