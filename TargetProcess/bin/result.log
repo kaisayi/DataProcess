@@ -1,0 +1,516 @@
+[I 2017-11-23 14:22:57 extract_data] <class 'extract_data.dataprocess'>: 
+LOAD DATA FROM ../db/2.txt
+[I 2017-11-23 14:22:57 datum_mark] <class 'datum_mark.datum'>: 
+CALIBRATION POINTS LIST [[-0.302736, -0.192271, -1.029844], [0.150571, -0.169914, -1.041316], [-0.261754, 0.221478, -1.091732], [0.191602, 0.243536, -1.090674]]
+[I 2017-11-23 14:22:57 datum_mark] <class 'datum_mark.datum'>: 
+ERROE OF THE MEASUREMENT 1.0002410672870106, 
+COEFFICIENT OF SPACE SCALING 2.4231837510454857, 
+RULER LENGTH 0.45394824041940846
+[I 2017-11-23 14:22:57 extract_data] <class 'extract_data.dataprocess'>: 
+LOAD DATA FROM ../db/600pa.txt
+[I 2017-11-23 14:22:57 extract_data] <class 'extract_data.dataprocess'>: 
+LOAD DATA FROM ../db/600pa.txt
+[I 2017-11-23 14:22:57 datum_mark] <class 'datum_mark.datum'>: 
+CALIBRATION POINTS LIST [[-0.306454, -0.171791, -0.96032], [0.149172, -0.157717, -0.977381], [-0.258464, 0.243591, -1.021456], [0.197459, 0.257348, -1.02581]]
+[I 2017-11-23 14:22:57 datum_mark] <class 'datum_mark.datum'>: 
+CALIBRATION POINTS LIST [[-0.306454, -0.171791, -0.96032], [0.149172, -0.157717, -0.977381], [-0.258464, 0.243591, -1.021456], [0.197459, 0.257348, -1.02581]]
+[I 2017-11-23 14:22:57 datum_mark] <class 'datum_mark.datum'>: 
+ERROE OF THE MEASUREMENT 1.0000245409180535, 
+COEFFICIENT OF SPACE SCALING 2.411451069390455, 
+RULER LENGTH 0.4561568816231665
+[I 2017-11-23 14:22:57 datum_mark] <class 'datum_mark.datum'>: 
+ERROE OF THE MEASUREMENT 1.0000245409180535, 
+COEFFICIENT OF SPACE SCALING 2.411451069390455, 
+RULER LENGTH 0.4561568816231665
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+TARGET POINTS : [[-0.306454, -0.171791, -0.96032], [0.149172, -0.157717, -0.977381], [-0.258464, 0.243591, -1.021456], [0.197459, 0.257348, -1.02581]]
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+ORIGINAL POINTS : [[-0.302736, -0.192271, -1.029844], [0.150571, -0.169914, -1.041316], [-0.261754, 0.221478, -1.091732], [0.191602, 0.243536, -1.090674]]
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+THE ERROR OF INITIAL STEP: 1.6406e-03, 
+THE TRANSLATE VECTOR: array([ 0.01678446, -0.09206126,  0.06315596])
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+THE INITIAL INCREASING STEP LENGTH: 8.7312e-04
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+CURRENT PARAMS OF THE ITERATION: array([ 0.05061792, -0.00810278, -0.01079845])
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([-0.99387029,  0.10491807, -0.03484308])
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.5269e-03
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.4172e-03
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.2104e-03
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.4638e-04
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 3.1808e-04
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 2.7620e-03
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 5.5880e-02
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.53661328,  0.35328573, -0.76631285])
+[W 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEWERROE 6.6126e-05, NEW ERROR BIGGER THAN PREVIOUS ERROR
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.2350e-03
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 4.0059e-04
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.6996e-04
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.0136e-04
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 7.8751e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 7.0368e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.6907e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.5359e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.4631e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.4279e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.4105e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.4019e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3976e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3955e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3944e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3939e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3936e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3935e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3934e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3934e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3934e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3934e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 1.9853e-16
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.53661328,  0.35328573, -0.76631285])
+[W 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEWERROE 6.6126e-05, NEW ERROR BIGGER THAN PREVIOUS ERROR
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 6.2039e-18
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.53661328,  0.35328573, -0.76631285])
+[W 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEWERROE 6.6126e-05, NEW ERROR BIGGER THAN PREVIOUS ERROR
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 1.5510e-18
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.53661328,  0.35328573, -0.76631285])
+[W 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEWERROE 6.6126e-05, NEW ERROR BIGGER THAN PREVIOUS ERROR
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 6.3933e-05
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 3.8774e-19
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.53661328,  0.35328573, -0.76631285])
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 1.9387e-19
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.53661328,  0.35328573, -0.76631285])
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 9.6936e-20
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.53661328,  0.35328573, -0.76631285])
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 4.8468e-20
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.53661328,  0.35328573, -0.76631285])
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 2.4234e-20
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.53661328,  0.35328573, -0.76631285])
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 1.2117e-20
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.53661328,  0.35328573, -0.76631285])
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 6.0585e-21
+            NEXT PARAMETERS OF THE ITERATION : array([-0.0049194 , -0.00223997, -0.01274547])
+            
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+
+        THE OPTIMATE RESULTS OF SPACE CONVERT:
+         OPT_ERROR 6.39334e-05 
+         OPT_ROTATE_MATRIX array([[ 0.99966514,  0.02546403,  0.00460446],
+       [-0.0255081 ,  0.99962678,  0.00977983],
+       [-0.00435371, -0.00989401,  0.99994158]]) 
+         OPT_TRANS_VEC array([ 0.00552158,  0.02606083,  0.07227358])
+[I 2017-11-23 14:22:57 space_convert] <class '__main__.Convert'>: 
+THE RESULT OF CONVERT IS [array([-0.30827024, -0.16943444, -0.95928454]), array([ 0.14760873, -0.15870905, -0.97301713]), array([-0.25680201,  0.24451378, -1.02576286]), array([ 0.19917651,  0.25506071, -1.02690246])]
+[I 2017-11-23 14:45:04 extract_data] <class 'extract_data.dataprocess'>: 
+LOAD DATA FROM ../db/4.txt
+[I 2017-11-23 14:45:04 datum_mark] <class 'datum_mark.datum'>: 
+CALIBRATION POINTS LIST [[-0.314245, -0.177257, -0.981337], [0.143875, -0.175234, -0.995256], [-0.254699, 0.237275, -1.048503], [0.20359, 0.239345, -1.049418]]
+[I 2017-11-23 14:45:04 datum_mark] <class 'datum_mark.datum'>: 
+ERROE OF THE MEASUREMENT 1.0000900667341344, 
+COEFFICIENT OF SPACE SCALING 2.400094815993829, 
+RULER LENGTH 0.4583152268276173
+[I 2017-11-23 14:45:04 extract_data] <class 'extract_data.dataprocess'>: 
+LOAD DATA FROM ../db/600pa.txt
+[I 2017-11-23 14:45:04 extract_data] <class 'extract_data.dataprocess'>: 
+LOAD DATA FROM ../db/600pa.txt
+[I 2017-11-23 14:45:04 datum_mark] <class 'datum_mark.datum'>: 
+CALIBRATION POINTS LIST [[-0.306454, -0.171791, -0.96032], [0.149172, -0.157717, -0.977381], [-0.258464, 0.243591, -1.021456], [0.197459, 0.257348, -1.02581]]
+[I 2017-11-23 14:45:04 datum_mark] <class 'datum_mark.datum'>: 
+CALIBRATION POINTS LIST [[-0.306454, -0.171791, -0.96032], [0.149172, -0.157717, -0.977381], [-0.258464, 0.243591, -1.021456], [0.197459, 0.257348, -1.02581]]
+[I 2017-11-23 14:45:04 datum_mark] <class 'datum_mark.datum'>: 
+ERROE OF THE MEASUREMENT 1.0000245409180535, 
+COEFFICIENT OF SPACE SCALING 2.411451069390455, 
+RULER LENGTH 0.4561568816231665
+[I 2017-11-23 14:45:04 datum_mark] <class 'datum_mark.datum'>: 
+ERROE OF THE MEASUREMENT 1.0000245409180535, 
+COEFFICIENT OF SPACE SCALING 2.411451069390455, 
+RULER LENGTH 0.4561568816231665
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+TARGET POINTS : [[-0.306454, -0.171791, -0.96032], [0.149172, -0.157717, -0.977381], [-0.258464, 0.243591, -1.021456], [0.197459, 0.257348, -1.02581]]
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+ORIGINAL POINTS : [[-0.314245, -0.177257, -0.981337], [0.143875, -0.175234, -0.995256], [-0.254699, 0.237275, -1.048503], [0.20359, 0.239345, -1.049418]]
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+THE ERROR OF INITIAL STEP: 9.9347e-04, 
+THE TRANSLATE VECTOR: array([ 0.01102761, -0.07777936,  0.01023161])
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+THE INITIAL INCREASING STEP LENGTH: 7.8025e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+CURRENT PARAMS OF THE ITERATION: array([ 0.04512353, -0.00431496,  0.01169997])
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([-0.99084691,  0.13269854,  0.02476874])
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 9.1533e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.4045e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 7.0043e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 4.5947e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.3425e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.1262e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 2.5800e-03
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 4.9936e-02
+            NEXT PARAMETERS OF THE ITERATION : array([-0.00435537,  0.00231146,  0.01293682])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.87237812,  0.47877017,  0.09866881])
+[W 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEWERROE 1.1230e-04, NEW ERROR BIGGER THAN PREVIOUS ERROR
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 3.9050e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.2294e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 6.2420e-03
+            NEXT PARAMETERS OF THE ITERATION : array([ 0.00109001,  0.00529995,  0.01355271])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.40594246,  0.91389785,  0.00119949])
+[W 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEWERROE 8.5608e-05, NEW ERROR BIGGER THAN PREVIOUS ERROR
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.2625e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 1.0372e-04
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 9.4115e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.9725e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.7634e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.6614e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.6111e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5860e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5736e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5674e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5643e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5627e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5619e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5615e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5613e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5612e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5612e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5612e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5612e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5612e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 5.5440e-18
+            NEXT PARAMETERS OF THE ITERATION : array([ 0.00109001,  0.00529995,  0.01355271])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.40594246,  0.91389785,  0.00119949])
+[W 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEWERROE 8.5608e-05, NEW ERROR BIGGER THAN PREVIOUS ERROR
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 1.3860e-18
+            NEXT PARAMETERS OF THE ITERATION : array([ 0.00109001,  0.00529995,  0.01355271])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.40594246,  0.91389785,  0.00119949])
+[W 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEWERROE 8.5608e-05, NEW ERROR BIGGER THAN PREVIOUS ERROR
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+NEW ERROR OF TARGET FUNCTION 8.5611e-05
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 3.4650e-19
+            NEXT PARAMETERS OF THE ITERATION : array([ 0.00109001,  0.00529995,  0.01355271])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.40594246,  0.91389785,  0.00119949])
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 1.7325e-19
+            NEXT PARAMETERS OF THE ITERATION : array([ 0.00109001,  0.00529995,  0.01355271])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.40594246,  0.91389785,  0.00119949])
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 8.6625e-20
+            NEXT PARAMETERS OF THE ITERATION : array([ 0.00109001,  0.00529995,  0.01355271])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.40594246,  0.91389785,  0.00119949])
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 4.3313e-20
+            NEXT PARAMETERS OF THE ITERATION : array([ 0.00109001,  0.00529995,  0.01355271])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.40594246,  0.91389785,  0.00119949])
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 2.1656e-20
+            NEXT PARAMETERS OF THE ITERATION : array([ 0.00109001,  0.00529995,  0.01355271])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.40594246,  0.91389785,  0.00119949])
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 1.0828e-20
+            NEXT PARAMETERS OF THE ITERATION : array([ 0.00109001,  0.00529995,  0.01355271])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+SLOPE OF CURRENT STATUS array([ 0.40594246,  0.91389785,  0.00119949])
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+            NEXT INC_STEP OF THE ITERATION : 5.4141e-21
+            NEXT PARAMETERS OF THE ITERATION : array([ 0.00109001,  0.00529995,  0.01355271])
+            
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+
+        THE OPTIMATE RESULTS OF SPACE CONVERT:
+         OPT_ERROR 8.56115e-05 
+         OPT_ROTATE_MATRIX array([[ 0.99957656, -0.0271112 , -0.0105681 ],
+       [ 0.0270881 ,  0.99963035, -0.00232319],
+       [ 0.01062717,  0.00203594,  0.99994146]]) 
+         OPT_TRANS_VEC array([-0.009363  ,  0.01112053,  0.01805314])
+[I 2017-11-23 14:45:04 space_convert] <class '__main__.Convert'>: 
+THE RESULT OF CONVERT IS [array([-0.30689064, -0.17143961, -0.96228826]), array([ 0.14897068, -0.15704354, -0.97129121]), array([-0.25812922,  0.24274842, -1.02766423]), array([ 0.19776218,  0.25716574, -1.02372329])]
