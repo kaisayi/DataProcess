@@ -60,8 +60,8 @@ class norm_data:
 
 class data_info:
 
-    _datum = '../db/0.5.txt.new'
-
+    _datum = '../db/chongqi/2.txt.new'
+    # _datum = '../db/2-1.txt.new'
     def __init__(self, file):
         self.nor_d = norm_data(file)
         self.lens = 0

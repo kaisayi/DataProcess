@@ -4,27 +4,24 @@
 @Author  : Aries
 '''
 
-import logging
+# import logging
+import glob
+# from extract_data import *
+from space_convert_develop import *
 
+def main():
+    # err = {}
+    for file in glob.glob('../db/chongqi/*.txt'):
+        cur_Cv = Convert(file)
+        cur_points = cur_Cv.convert_parray()
+        with open(f'{file}.new', 'w') as fw:
+            for points in cur_points:
+                fw.write(' '.join([str(p) for p in points]) + '\n')
+    #     _, error = cur_Cv.convert_calib()
+    #     err[file] = error
+    # print('\n'.join(['the error of {fn} is {er:.5e}'.format(fn=f, er=e) for f, e in err.items()]))
 
-def newlogger(cls):
+# __all__ = ['newlogger']
 
-    clogger = logging.getLogger(cls)
-    clogger.setLevel(logging.INFO)
-    fh = logging.FileHandler('result.log')
-    ch = logging.StreamHandler()
-    formatter  =logging.Formatter(
-        '[%(levelname).1s %(asctime).19s %(module)s]'
-        ' %(name)s: \n%(message)s'
-    )
-    fh.setFormatter(formatter)
-    fh.setLevel(logging.INFO)
-    ch.setFormatter(formatter)
-    ch.setLevel(logging.INFO)
-    clogger.addHandler(fh)
-    clogger.addHandler(ch)
-
-    return clogger
-
-
-__all__ = ['newlogger']
+if __name__ == '__main__':
+    main()

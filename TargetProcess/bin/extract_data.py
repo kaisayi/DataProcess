@@ -5,7 +5,22 @@
 '''
 import sys
 import heapq
-from main import *
+from new_logger import *
+import collections
+
+class Cached(type):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._cached = {}
+
+    def __call__(self, *args):
+        if not isinstance(args, collections.Hashable):
+            return super().__call__(*args)
+        if args not in self._cached:
+            self._cached[args] = super().__call__(*args)
+
+        return self._cached
 
 class dataprocess:
 
@@ -69,8 +84,9 @@ class dataprocess:
 #     calis.extend(heapq.nsmallest(2, data, key=lambda x: x[1]))
 #     return calis
 
+
 __all__ = ['dataprocess']
 
 if __name__ == '__main__':
-    p = dataprocess('../db/600pa.txt')
+    p = dataprocess('../db/10.txt')
     print(p.calis)
